@@ -30,8 +30,8 @@ public class ChargerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chargers_list);
         tvAddress = findViewById(R.id.tvAddress);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.setDisplayHomeAsUpEnabled(true);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         StationModel stationModels = (StationModel) getIntent().getSerializableExtra("CHARGER_LIST");
